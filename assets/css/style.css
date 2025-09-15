@@ -40,6 +40,15 @@ p{
   font-family:'Lexend Deca', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .fade {
   opacity:0;
   transform:translateY(6px);
