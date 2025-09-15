@@ -41,11 +41,13 @@ p{
 }
 
 a{
+  color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
+  color: #000;
   text-decoration: underline;
 }
 
