@@ -1,8 +1,15 @@
 ---
 layout: default
 title: 🫧🪽
-permalink: /404
+permalink: /404.html
 ---
+
+<script>
+  // 現在の URL が /404.html なら、/404 に置き換える
+  if (window.location.pathname !== '/404') {
+    history.replaceState(null, null, '/404');
+  }
+</script>
 
 <div class="center">
   <h2 class="fade">ここにはなにもありません</h2>
