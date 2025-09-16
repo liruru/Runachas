@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index, follow" />
-  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <title>{{ page.title | default: "🪽🫧" }}</title>
 
   <link rel="icon" type="image/png" href="{{ '/icon.png' | relative_url }}">
 
